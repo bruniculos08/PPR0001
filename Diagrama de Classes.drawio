@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-03T15:30:39.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="IPqUDK3ewhL3Oy54_xRo" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-03T15:32:03.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="eSI8Cl3HSp6S8KC4gh2w" version="16.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1847" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -179,13 +179,13 @@
         <mxCell id="7seZj-9RwBSpQ4ibEDFT-50" value="Projeto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="600" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="7seZj-9RwBSpQ4ibEDFT-51" value="+ nome: str&#xa;+ status: str&#xa;+ historico: list()&#xa;+ generoTextual: str&#xa;+ listaArquivos: list()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7seZj-9RwBSpQ4ibEDFT-50" vertex="1">
+        <mxCell id="7seZj-9RwBSpQ4ibEDFT-51" value="+ nome: str&#xa;+ status: str&#xa;+ historico: list()&#xa;+ generoTextual: str&#xa;+ listaArquivos: list()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7seZj-9RwBSpQ4ibEDFT-50" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
         <mxCell id="7seZj-9RwBSpQ4ibEDFT-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="7seZj-9RwBSpQ4ibEDFT-50" vertex="1">
           <mxGeometry y="100" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7seZj-9RwBSpQ4ibEDFT-53" value="+ editarNomeArq(str, &#xa;str, list()): str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7seZj-9RwBSpQ4ibEDFT-50" vertex="1">
+        <mxCell id="7seZj-9RwBSpQ4ibEDFT-53" value="+ editarNomeArq(str, &#xa;str, list()): str&#xa;+ update(int, list(), list());" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7seZj-9RwBSpQ4ibEDFT-50" vertex="1">
           <mxGeometry y="120" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LjENutwPi0jd3vjKfc23-1" value="ListaAutor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
